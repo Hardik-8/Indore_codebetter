@@ -1,0 +1,16 @@
+import cheat1 as my
+
+print(my.add(2,3))
+print(my.sub(2,3))
+print(my.mul(2,3))
+print(my.div(2,3))  
+print(my.cube(3))
+print(my.square(3))
+print(my.whole_cube(2,3))
+print(my.whole_square(2,3))
+# print(my.math(2,3))
+# print(my.pi())
+print(my.area_of_rectangle(2,3))
+print(my.area_of_circle(2))
+print(my.fact(5))
+print(my.factori(5))

@@ -1,0 +1,38 @@
+/* *{
+    background-color: chocolate;
+} */
+
+
+
+h1{
+    background-color: brown;
+    color: aliceblue;
+}
+h2,h2,h3,h4,h5{
+    background-color: green;
+    color: white;
+}
+.my-class{
+    background-color: blue ;
+    color: white;
+}
+#My-id-1{
+    background-color: yellow; 
+    color: black
+}
+#My-id-2{
+    background-color: rgb(243, 14, 14)   ;
+    color: white
+}
+.box1 ul{
+    color: rgb(69, 16, 167);
+    /* text-decoration: none; */
+    list-style: none;  
+}
+.box2 li{
+    color: blue;
+}
+.box3 ol li{
+    color: rgb(210, 210, 14);
+    list-style: none;
+}

@@ -1,0 +1,15 @@
+#hello
+print("|--------------------------------------------|")
+print("|..................Bio Data..................|")
+print("|--------------------------------------------|")
+print("|          My name is Hardik Jain            |")
+print("|--------------------------------------------|")
+print("| I am pursuing B.Tech in AI & Data Science  |")
+print("|--------------------------------------------|")
+print("|        I am currently in 6th semester      |")
+print("|--------------------------------------------|")
+print("|     My college name is AKS University      |")
+print("|--------------------------------------------|")
+print("|     My goal is to become a Data analyst    |")
+print("|--------------------------------------------|")
+

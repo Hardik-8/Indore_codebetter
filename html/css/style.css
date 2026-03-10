@@ -1,0 +1,15 @@
+/* jeigh iwueg */
+
+*{
+    background-color: aqua;
+}
+.my-cls{
+    background-color: rgb(178, 221, 36) !important;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+h1{
+    background-color: bisque;
+
+}

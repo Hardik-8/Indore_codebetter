@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <center>
+        <hr>
+        <h1>
+            JOB APPLICATION FORM
+        </h1>
+        <hr>
+        <form>
+            <table border="1px">
+            <tr>
+                <td><label>First_name</label></td>
+                <td><input type="text" id="First_name" name="last_name"></td>
+            </tr>
+            <tr>
+                <td><label>last_name</label></td>
+                <td><input type="text" id="last_name" name="last_name"></td>
+            </tr>
+            <tr>
+                <td><label>Father_name</label></td>
+                <td><input type="text" id="Father_name" name="father_name"></td>
+            </tr>
+            <tr>
+                <td><label>Mother_name</label></td>
+                <td><input type="text" id="Mother_name" name="mother_name"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="text" id="Email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Contact</label></td>
+                <td><input type="text" id="Contact" name="contact"></td>
+            </tr>
+            <tr>
+                <td><label>Age</label></td>
+                <td><input type="number" id="Age" name="Age"></td>
+            </tr>
+            <tr>
+                <td><label>Date_of_birth</label></td>
+                <td><input type="date" id="Date_of_birth" name="Date_of_birth"></td>
+            </tr>
+            <tr>
+                <td><lable>Gender</lable></td>
+                <td>
+                    <input type="radio" id="male" name="Gender" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Other" name="Gender" value="Other">
+                    <label for="Other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><lable>Category</lable></td>
+                <td>
+                    <input type="radio" id="General" name="Caste" value="General">
+                    <label for="General">General</label>
+                    <input type="radio" id="ST" name="Caste" value="ST">
+                    <label for="ST">ST</label>
+                    <input type="radio" id="SC" name="Caste" value="SC">
+                    <label for="SC">SC</label>
+                    <input type="radio" id="OBC" name="Caste" value="OBC">
+                    <label for="OBC">OBC     </label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Qualification</label></td>
+                <td>
+                    <input type="checkbox" id="HSC" name="skills[]" value="HSC">
+                    <label for="HSC">HSC</label>
+                    <input type="checkbox" id="SSC" name="skills[]" value="SSC">
+                    <label for="SSC">SSC</label>
+                    <input type="checkbox" id="Graduate" name="skills[]" value="Graduate">
+                    <label for="Graduate">Graduate</label>
+                    <input type="checkbox" id="Post Graduate" name="skills[]" value="Post Graduate">
+                    <label for="Post Graduate">Post Graduate</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label>State</label></td>
+                <td>
+                    <select id="State" name="state" >
+                        <option value="MP">MP</option>
+                        <option value="UP">UP</option>
+                        <option value="CG">CG</option>
+                        <option value="HR">HR</option>
+                        <option value="RJ">RJ</option>
+
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">County</label></td>
+                <td><input type="text" id="County" name="country" value="India" readonly> </td>
+            </tr>
+            <tr>
+                <td><label for="Resume">Resume</label></td>
+                <td><input type="file" id="Resume" name="Resume" accept=".Doc .Pdf"></td>
+            </tr>
+            <tr>
+                <td><label for="Other">Other_document</label></td>
+                <td><input type="file" id="Other_document" name="Other_document" accept=".Doc .Pdf"></td>
+            
+            </tr>
+            <tr>
+                <td><label for="Rating">Rating</label></td>
+                <td><input type="range" id="Rating" name="Rating"></td>
+            
+            </tr>
+            <tr>
+                <td><label for="color">Color</label></td>
+                <td><input type="color" id="color" name="color" ></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" id="Password" name="Date_of_birth"></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Apply</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+            </table>
+        </form>
+
+        </center>
+    </body>
+</html>

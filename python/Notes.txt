@@ -1,0 +1,148 @@
+a=int(input("Enter first value "))
+b=int(input("enter second value "))
+temp=a
+a=b
+b=temp
+print(a)
+print(b)
+
+#del , gc() (ye method hoti hai memory delete krne ke liye)
+
+a=int(input("Enter first value "))
+b=int(input("enter second value "))
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+{
+a=a*B
+b=a//b
+a=a//b
+}
+{
+a=a^b
+b=a^B
+a=a^B
+}
+
+(binary conversion padhna hai sare numbers ke liye , number system )
+
+
+control structure 
+	if 
+	else
+	elif
+loop
+	  for
+	  while
+	break
+	continue
+============================================
+
+if (condition):
+	block 1
+else :
+	block 2 
+
+(relational operator)=
+	<
+	<=
+(ye output me bool(true/false) retrun krta hai )
+
+logical operator 
+	AND 
+	OR
+	NOT
+
+table : 
+|	C1	|	C2	|	C1andC2   |	 C1orC2  | 
+|	F	|	T	|	 F 		  |   	T 	 |
+|	T	|	T	|	 T		  |   	T 	 |
+|	F	|	F	|	 F 		  |   	F	 |
+|	T	|	F	|	 F 		  |   	T 	 |
+
+
+assenment operator /composite
+	+=
+	-=
+	/=
+	//=
+	%=
+
+member operator 
+	in 
+	or 
+	is 
+
+
+loop
+it is used for repetable statement.
+
+
+in python we have while loop only 
+	loop has 
+		starting point 
+		end point 
+		steps
+
+syntax :
+	initiolization counter (ye bahr hona chaiheye loop se)
+	while (TC):
+		State 1
+		state 2 
+		initiolization (jab tak while true tha tab tak state chalega varna bahar aa jaega false hua too bahar)
+
+
+
+
+
+data 	
+	constant
+	variable
+Datatype 
+	primitive type - jo pehele se hiii define hai (int) 
+	non - primitive type - ham hamari choice ke according define kr sakte hai (class me ) 
+
+
+every object contain 3 properties 
+	identity - it is the reference of the object ( jiska koi indentity nahi ho vo kehlaega annonomous abject ) 
+	behaviour
+	state
+
+left hand side me ham identity likhte hai 
+aur right hand side me ham obejct likhte hai 
+
+
+operator Types 
+			Unary (1oprator 1 opetants)
+			Binary 
+			Ternary
+
+assignment 
+			arthematic :
+			area of rectangle 
+			area of circle 
+			area of traingle
+			area of square
+			area of cube
+			find the simple intrest 
+			cercumference of circle 
+			cercumference of 
+			faranite in cetegrate
+			
+
+
+
+list whenever we want to represnt group of indivisual object as a single entity where duplicate is to be allowd homogenous 
+hetrogenous is to be allowed and insersion order is to be proserved and we want to mutaible operations then we will go for list 
+every list object is to be represnt within a swuare braket with having comma speprator.
+							ob=[1,2,3,5,6,4]
+
+
+
+
+
+
+
