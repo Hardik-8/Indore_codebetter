@@ -53,7 +53,7 @@ def factorial(data : int):
     return {"factorial " : f}
 
 @app.get("/voter")
-def voter(name :str,age:int):
+def voter(name :str , age:int):
     if age>=18:
         return {"message":"eligible for vote"}
     else:
