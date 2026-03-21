@@ -17,7 +17,7 @@ def emplist():
     return employees
 
 
-@app.get("employees/{id}")
+@app.get("/employees/{id}")
 def employee(id:int):
     emp = None
     for e in employees:
