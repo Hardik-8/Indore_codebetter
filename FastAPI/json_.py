@@ -21,7 +21,6 @@ def filter_products(price:int):
         if price==price:
             return price
 
-
 @app.get("/products/add_product")
 def add_product(id :int,name : str ,price : int):
     new={"id":id,"name":name,"price":price}
