@@ -48,5 +48,15 @@ def addemp(empid:int,firstname:str,lastname:str,email:str,phone:str,gender:str,s
     cursor.close()
     return {"message":"new added "}
 
+@app.post("/employee")
+def delete(empid:int):
+    query="delete from employee where empid=%s"
+    val=(empid)
+    cursor=mysqlcon.cursor()
+    cursor.execute(query,val)
+    mysqlcon.commit()
+    cursor.close()
+    return {"message":"new added"}
 
 # product table 
+

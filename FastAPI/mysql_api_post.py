@@ -30,7 +30,7 @@ def products_list():
             id=row[0],name=row[1],price=row[2]
         )
         products_list.append(pro)
-    return products_list
+    return products_list    
 
 @app.post("/products")
 def addproduct(id:int,name:str,price:int):
@@ -41,3 +41,10 @@ def addproduct(id:int,name:str,price:int):
     mysqlcon.commit()
     cursor.close()
     return {"message":"new added "}
+
+
+@app.get("/products/filter")
+def filter_products(price:int):
+    for i in products_list[2]:
+        if price==price:
+            return price
