@@ -15,3 +15,14 @@ class Student(BASE):
     name=Column(String(30),nullable=False)
     course=Column(String(30),nullable=False)
     fees=Column(Integer,nullable=False)
+
+class Category(BASE):
+    __tablename__="category"
+    cat_id=Column(Integer,primary_key=True,index=False)
+    cat_name=Column(String(30),nullable=False)
+
+class Product(BASE):
+    __tablename__="product"
+    pd_id=Column(Integer,primary_key=True,index=False)
+    pd_name=Column(String(30),nullable=False)
+    pd_price=Column(Integer,nullable=False)
