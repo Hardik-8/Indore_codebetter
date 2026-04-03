@@ -1,5 +1,5 @@
 
-from sqlalchemy import Column,Integer,String
+from sqlalchemy import Column,Integer,String,Date,DateTime,Time,DECIMAL
 from database import BASE,engine
 class Employee(BASE):
     __tablename__="employees"
