@@ -317,4 +317,3 @@ class SalaryResponse(SalaryBase):
 
     class Config:
         orm_mode =  True
-
